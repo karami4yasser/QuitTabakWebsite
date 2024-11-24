@@ -224,12 +224,14 @@ body {
 
 /* Call-to-Action Section */
 .cta {
-  background: linear-gradient(135deg, #ff6f91, #ff9671); /* Eye-catching gradient */
+  
+/*   background: #fce7eb; /* Eye-catching gradient */ 
+  background: linear-gradient(135deg,  #fef2f4, #87405e);
   color: white;
   padding: 60px 20px;
   text-align: center;
-  border-radius: 10px;
-  margin: 40px auto; /* Adds space around the section */
+  border-radius: 0px;
+  margin: 0px auto; /* Adds space around the section */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
@@ -237,12 +239,14 @@ body {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #000;
 }
 
 .cta p {
   font-size: 1.2rem;
   margin-bottom: 30px;
   line-height: 1.8;
+  color: #141010;
 }
 
 .cta-buttons {
