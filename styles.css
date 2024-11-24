@@ -220,6 +220,18 @@ body {
   .download-buttons {
     flex-direction: column;
   }
+  .header {
+    position: relative;
+    height: 90vh;
+    background-image: url('./images/bg3-phone.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
 }
 
 /* Call-to-Action Section */
