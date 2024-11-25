@@ -207,7 +207,7 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 1024px) {
   .navbar {
     flex-direction: column;
     align-self: center;
