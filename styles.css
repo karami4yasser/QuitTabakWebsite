@@ -18,7 +18,7 @@ body {
 .header {
   position: relative;
   height: 90vh;
-  background-image: url('./images/bg3.png');
+  background-image: url('./images/bg3-web.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -224,7 +224,7 @@ body {
   .header {
     position: relative;
     height: 90vh;
-    background-image: url('./images/bgphonetest.png');
+    background-image: url('./images/bg-phone.png');
     background-size: cover;
     background-position: center;
     display: flex;
