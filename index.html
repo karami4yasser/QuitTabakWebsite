@@ -15,8 +15,31 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="./images/appLogoBig.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+  <script src="web.js"></script> <!-- Make sure the path matches your output directory -->
+<script type="module" >
+  import ChatbotModule from './web.js';  // If you're using default export
+    window.onload = function() {
+      // Check if the Chatbot object is available in the global window object
+      if (window.Chatbot && typeof window.Chatbot.init === 'function') {
+        // Initialize the chatbot with desired configuration
+        window.Chatbot.init({
+          chatbotName: "product-recommendation-81mb9di",
+          theme: {
+            button: { backgroundColor: "#FFEF02" },
+            chatWindow: { backgroundColor: "#010000" },
+          },
+        });
+      } else {
+        console.error('Chatbot initialization failed: init function not found.');
+      }
+    };
+  </script>
+
+
   <!-- Header Section -->
   <header class="header">
     <div class="header-overlay">
